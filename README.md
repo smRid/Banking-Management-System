@@ -23,3 +23,32 @@ A backend banking system built with **Java Spring Boot** and **MySQL**, designed
 - Generate bank statements for a given account within a specified date range.
 
 ---
+
+
+## 🛠️ Tech Stack
+
+### Backend:
+- **Java 11+**
+- **Spring Boot**
+- **Spring Data JPA**
+- **Spring Mail**
+
+### Database:
+- **MySQL**
+
+### Tools & Utilities:
+- **Lombok** – Reduces boilerplate code.
+- **Maven** – Project build and dependency management.
+
+---
+
+## ⚙️ Prerequisites
+
+Ensure the following are installed and configured on your system:
+
+- Java 11 or later  
+- Maven  
+- MySQL  
+- SMTP credentials for email service  
+
+---
