@@ -130,3 +130,61 @@ Ensure the following are installed and configured on your system:
 Returns a list of transactions between `startDate` and `endDate`.
 
 ---
+---
+
+## 🗂️ Project Structure
+
+```
+src/
+│
+├── main/
+│   ├── java/com/esmay/bankingService/
+│   │   ├── controller     # REST Controllers
+│   │   ├── dto            # Data Transfer Objects
+│   │   ├── entity         # JPA Entity Models
+│   │   ├── repository     # Spring Data Repositories
+│   │   ├── service        # Business Logic
+│   │   └── utils          # Helper/Utility Classes
+│   └── resources/
+│       └── application.properties  # Configuration
+│
+└── test/
+    └── java/com/riduan/bms/  # Unit & Integration Tests
+```
+
+---
+
+## 🧬 ER Diagram
+
+![Banking ER Diagram](https://github.com/user-attachments/assets/db285fa5-01c4-4747-a90c-c75a89347560)
+
+---
+
+## ✅ Completed Features
+
+- ✅ User account creation, balance inquiry, and name lookup  
+- ✅ Credit, debit, and fund transfer operations  
+- ✅ Statement generation by date range  
+- ✅ Email notifications for all financial activities  
+
+---
+
+## 🚧 Roadmap
+
+### 🔐 Authentication & Authorization *(Upcoming)*
+- Implement security features such as **JWT-based authentication** to protect sensitive endpoints.
+
+### 💻 Frontend Interface *(Planned)*
+- Build a responsive **web or mobile frontend** to interact with the API in a user-friendly way.
+
+---
+
+## 🙏 Contributions & Feedback
+
+Contributions are welcome! If you'd like to suggest improvements or report issues, feel free to open a pull request or submit an issue.
+
+---
+
+## 📬 Contact
+
+Feel free to reach out with questions, feedback, or collaboration ideas.
